@@ -52,7 +52,9 @@ class ColorSquare extends Component {
   }
 
   componentWillUnmount() {
-    this.observer.unsubscribe();
+    if (this.observer) {
+      this.observer.unsubscribe();
+    }
     clearInterval(this.countdown);
   }
 
