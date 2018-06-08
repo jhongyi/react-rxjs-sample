@@ -8,6 +8,7 @@ import App from './App';
 import NotFound from './NotFound';
 import ColorSquare from './ColorSquare';
 import MouseBall from './MouseBall';
+import Draw from './Draw';
 
 const Main = () => (
   <Router>
@@ -16,6 +17,7 @@ const Main = () => (
         <Route exact path="/" component={ColorSquare} />
         <Route path="/ColorSquare" component={ColorSquare} />
         <Route path="/MouseBall" component={MouseBall} />
+        <Route path="/Draw" component={Draw} />
         <Route component={NotFound} />
       </Switch>
     </App>

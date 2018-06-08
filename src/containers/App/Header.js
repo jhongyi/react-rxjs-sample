@@ -35,6 +35,7 @@ export default class Header extends Component {
         <div className="item-link">
           <LinkItem to="/ColorSquare" activeStyle={activeStyle}>變色方塊</LinkItem>
           <LinkItem to="/MouseBall" activeStyle={activeStyle}>鎖定寶貝球</LinkItem>
+          <LinkItem to="/Draw" activeStyle={activeStyle}>畫圖</LinkItem>
         </div>
         <div className="personal-link">
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/jhongyi">

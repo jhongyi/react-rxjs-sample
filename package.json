@@ -8,7 +8,7 @@
     "dist": "npm run clean && webpack --progress --bail --env dist -p",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
-    "start": "webpack-dev-server --open --env dev",
+    "start": "webpack-dev-server --env dev",
     "deploy": "npm run dist && gh-pages -d dist"
   },
   "dependencies": {
